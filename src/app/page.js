@@ -68,7 +68,9 @@ function main() {
           </div>
         </div>
 
-        <div className="HappyCli">  </div>
+        <div className="HappyCli"> 
+        <h1>OUR CLIENTS</h1>
+           </div>
       </div>
     </>
   );
