@@ -7,27 +7,258 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+.Wrapper{
+  width: 100%;
+   
+  
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+}
+.Wrapper::-webkit-scrollbar{
+  display: none;
+}
+.Wrapper .Hero{
+  position: relative;
+  z-index: 10;
+  background:#0f0f0f ;
+  box-shadow:  0px 5px 4px #00712D; 
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 45vh;
+  display: grid;
+  grid-template-columns: 10rem 1fr 1fr 1fr ;
+  flex-wrap: wrap;
+  border-radius: 0px 0px 22px 22px;
+} 
+.Wrapper .Hero  h2{
+  font-size: 2vmax;
+  width: 100%;
+  grid-column: 2/4;
+  text-align: center;
+  color: white;
+}
+.Wrapper .Hero   h1{
+  text-align: end;
+  grid-column: 2/4;
+  font-size: 5vmax;
+  color: white;
+  width: fit-content;
+}
+.Wrapper .services{
+  width:100% ;
+  height: 60vh;
+  background: #0f0f0f;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  border-radius: 22px 22px 0px 0px;
+  top: -18px;
+  box-shadow:  0px -5px 4px #00712D; 
+  z-index: -1;
+  
+}
+.Wrapper .servicesIn{
+  width:100% ;
+  height: 60vh;
+  background: #D5ED9F; 
+  
+  position: absolute;
+  border-radius: 22px 22px 0px 0px;
+  top: -18px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  z-index: 10;
+  display: flex;
+  top: 70%;
+   
+}
+.Wrapper .servicesIn::-webkit-scrollbar{
+  display: none;
+}
+ 
+.Wrapper .services h5{
+  color: #FF9100;
+  margin-top: 18px;
+  font-size: 1.5vmax;
+  text-align: center;
+}
+.Wrapper .services p{
+  color: #FF9100;
+  font-size: 1.5vmax;
+  text-align: center;
+  margin-top: 18px;
+  
+}
+.Wrapper .slider{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  
+  overflow: hidden;
+  
+  
+}
+.Wrapper .slider .SlideIn{
+  display: flex;
+  align-items: center;
+  
+  align-content: center;
+  justify-content: center;
+  gap: 100px;
+   
+ }
+.Wrapper .slider .SlideIn h1{
+  color:#005b4133;
+  display: inline-block;
+  margin-top: -25px;
+   animation-name: slide;
+  animation-duration: 10s;
+  font-size:6vmax;
+   
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) all ease;
+  font-weight: 400;
+}
+@keyframes slide {
+  from{
+    transform: translateX(100%);
+  }
+  to{
+    transform: translateX(-0%);
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.Wrapper .OT{
+  width:100% ;
+  height: 80vh;
+  background: #0f0f0f;
+  position: relative;
+  top: 10px;
+  z-index: 11;
+  border-radius: 22px 22px 0px 0px;
+   
 }
+.Wrapper .OT h1{
+  color: #FF9100;
+  padding-top: 18px;
+  font-size: 2.5vmax;
+  text-align: center;
+  font-weight: 600;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+}
+.Wrapper .Team{
+  width:100% ;
+  height: 60vh;
+  
+  position: absolute;
+  align-items: center;
+  z-index: 11;
+  justify-content: center;
+  border-radius: 22px ;
+  align-content: center; 
+   
+} 
+.Wrapper .servicesIn .imgs{
+  width: 100%;
+  height: 100%;
+   border-radius: 22px 22px 0px 0px;
+  align-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  gap: 100px;
+
+}
+.Wrapper .servicesIn .imgs img{
+  width:80%;
+  display: flex;
+  height: 80%;
+  border: 1px solid white;
+  outline: 0;
+  border-radius: 25px;
+  top: 50px;
+  left: 50px;
+  position: relative;
+   
+  
+
+}
+@media screen and (max-width:600px)  {
+  
+.Wrapper .services h5{
+   display: none;
+}
+.Wrapper .Hero{ 
+  position: relative;
+  z-index: 10;
+  background:#0f0f0f ;
+  box-shadow:  0px 5px 4px #005B41; 
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 45vh;
+  display: grid;
+  grid-template-columns: 10rem 1fr 1fr 1fr ;
+  flex-wrap: wrap;
+  border-radius: 0px 0px 22px 22px;
+} 
+.Wrapper .Hero  h2{
+  font-size: 1.5vmax;
+  width: 100%;
+  grid-column: 1/2;
+  text-align: center;
+  color: white;
+}
+.Wrapper .Hero   h1{
+  text-align: end;
+  grid-column: 1/2;
+  font-size: 2.5vmax;
+  width:100% ;
+  color: white;
+  width: fit-content;
+  font-weight: 600;
+ }
+ .Wrapper .servicesIn .imgs{
+   width: 100%;
+   height: 100%;
+    border-radius: 22px 22px 0px 0px;
+   align-content: center;
+   display: flex;
+   justify-content: space-evenly;
+   position: relative;
+   gap: 100px;
+ 
+ }
+ .Wrapper .servicesIn .imgs img{
+   width:80%;
+   display: flex;
+   height: 80%;
+   border: 1px solid white;
+   outline: 0;
+   border-radius: 25px;
+   top: 50px;
+   left: 50px;
+   position: relative;
+    
+ } 
+ .Wrapper .OT{
+  width:100% ;
+  height: 80vh;
+  background: #0f0f0f;
+  position: relative;
+  top: 10px;
+  z-index: 11;
+  border-radius: 22px 22px 0px 0px;
+   
+}
+.Wrapper .OT h1{
+  color: whitesmoke;
+  padding-top: 15px;
+  font-size: 2.5vmax;
+  text-align: center;
+} 
 }
