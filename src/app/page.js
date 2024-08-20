@@ -49,11 +49,22 @@ function main() {
         <div className="OT">
           <h1>MEET OUR EXPERTS</h1>
           <div className="Team">
-          <div className="img1">
-              
-              <h2>Muhammad</h2>
-              <h2>MOOSA</h2>
-          </div>
+            <div className="img1">
+              <div className="t1">
+                <h1>AGHA</h1>
+                <h2>HASSAN</h2>
+              </div>
+
+              <div className="t2">
+                <h1>Muhammad</h1>
+                <h2>MOOSA</h2>
+              </div>
+
+              <div className="t3">
+                <h1>SYED</h1>
+                <h2>ZARGHAM</h2>
+              </div>
+            </div>
           </div>
         </div>
 
