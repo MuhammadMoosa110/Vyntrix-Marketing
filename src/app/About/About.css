@@ -1,1 +1,57 @@
 /* STYLE-About */
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.Wrapper_About{
+    width: 100%;
+    height: 100vh;
+    
+}
+.Wrapper_About .styleBar{
+    display: grid;
+    width: 100%;
+    background: #0F0F0F;
+    height: 30vh;
+    justify-items:center;
+    
+    border-radius: 0px 0px 22px 22px  ;
+    grid-template-rows: 50px 1fr 1fr 1fr 70px;
+    flex-wrap:wrap;
+}
+.Wrapper_About .styleBar h1{
+    color: white;
+    grid-row: 5; 
+      
+    font-size: 3vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+
+}
+.Wrapper_About .ImgSec{
+    width: 100%;
+    height: 50%;
+     
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center; 
+    white-space: wrap;
+    overflow: hidden;
+    top: 20px;
+}
+.Wrapper_About .ImgSec img{
+    position: relative;
+     height: 400px;
+     filter: grayscale(1);
+    border-radius: 22px ;
+    z-index: -0;
+     
+}
+.Wrapper_About .ImgSec img:hover{
+    filter: grayscale(0);
+    scale: 1.0;
+    
+    transition: all 2ms ease-in;
+}

@@ -45,6 +45,7 @@
     margin-top: -6.5%;
     border-radius:0px 0px 22px 22px  ;
     transition:  all ease-out 5ms;
+    z-index: 999;
  }
  .insideMenu ul li{
     width: 100%;
