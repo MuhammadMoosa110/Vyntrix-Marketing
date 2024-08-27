@@ -7,6 +7,11 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .Wrapper{
   width: 100%;
    
@@ -76,8 +81,7 @@
 }
 .Wrapper .servicesIn::-webkit-scrollbar{
   display: none;
-}
- 
+} 
 .Wrapper .services h5{
   color: #FF9100;
   margin-top: 18px;
@@ -202,8 +206,8 @@
 }
 .Wrapper .Team .img1  h1 , h2{
   color: #FF9100;
-  
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .Wrapper .Team .img1  h2{
   font-weight: 600;
@@ -238,9 +242,12 @@
   top: 50px;
   left: 50px;
   position: relative;
-   
+  filter: grayscale(1);
   
 
+}
+.Wrapper .servicesIn .imgs img:hover{
+  filter: grayscale(0);
 }
 .Wrapper .HappyCli{
   width: 100%;

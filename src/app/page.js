@@ -14,8 +14,8 @@ function main() {
     <>
       <div className="Wrapper">
         <div className="Hero ">
-          <img src="" />
-          <Header />
+           
+          <Header id="Head" />
 
           <h2>Unlock Your Brand’s </h2>
           <h1>Full Potential</h1>
