@@ -9,6 +9,10 @@
     height: 100vh;
     
 }
+
+.Wrapper_About::-webkit-scrollbar{
+    display: none;
+}
 .Wrapper_About .styleBar{
     display: grid;
     width: 100%;
@@ -38,8 +42,13 @@
     justify-content:space-evenly;
     align-content: center; 
     white-space: wrap;
-    overflow: hidden;
+   overflow-y: hidden;
+   overflow-x: auto;
     top: 20px;
+    gap: 12px;
+}
+.Wrapper_About .ImgSec::-webkit-scrollbar{
+    display: none;
 }
 .Wrapper_About .ImgSec img{
     position: relative;
@@ -54,4 +63,24 @@
     scale: 1.0;
     
     transition: all 2ms ease-in;
+}
+.Wrapper_About .context{
+    mix-blend-mode: difference;
+    position: absolute;
+    z-index: 999;
+    top: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-left:15%;
+    padding-right:15%;
+    justify-content: center;
+    width: 100%;
+    background: #0F0F0F;
+    height: 20%;
+    text-align: center;
+}
+.Wrapper_About .context p{
+    color: aliceblue;
 }
