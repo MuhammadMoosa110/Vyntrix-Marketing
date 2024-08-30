@@ -70,7 +70,30 @@
     mix-blend-mode: difference;
     position: absolute;
     z-index: 999;
-    top: 90%;
+    top: 85%;
+    border-radius: 22px 22px 0px 0px;
+    padding-top: 2%;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: start;
+    
+    padding-left:15%;
+    padding-right:15%;
+    justify-content: start;
+    width: 100%;
+    background: #0F0F0F;
+    height: 30%;
+    text-align: center;
+}
+.Wrapper_About .context p{
+    color: aliceblue;
+}
+.Wrapper_About .OurServices{
+    box-shadow: 0px -2.5px 0px 2px #FF9100;
+    position: absolute;
+    z-index: 999;
+    top: 110%;
+    border-radius: 22px 22px 0px 0px;
     padding-top: 2%;
     flex-wrap: wrap;
     display: flex;
@@ -84,6 +107,21 @@
     height: 20%;
     text-align: center;
 }
-.Wrapper_About .context p{
-    color: aliceblue;
+.Wrapper_About .OurServices h1{
+    color: white;
+}
+@media screen and (max-width:600px){
+    .Wrapper_About .context{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    .Wrapper_About .context p{
+        color: aliceblue;
+        font-size: 1vmax;
+        
+        
+        height: max-content;
+    }   
 }

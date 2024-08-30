@@ -31,6 +31,9 @@ function About() {
             non proident, sunt in culpa qui officia deserunt mollit anim id es
                 .</p>
          </div>
+         <div className="OurServices">
+                <h1>SERVICES</h1>
+         </div>
          </div>
          
        

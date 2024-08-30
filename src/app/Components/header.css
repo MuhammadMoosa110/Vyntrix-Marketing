@@ -56,7 +56,7 @@
     width: 100%;
  
     font-size: 2vmax; 
-    padding-top: 35px; 
+    padding-top: 0px; 
     text-align: center;
  }  
  @media screen and (max-width:600px){
@@ -82,7 +82,9 @@
      }
      .insideMenu ul li{
         width: 100%;
-     
+        
+        margin-top: 35px;
+        
         font-size: 2vmax; 
         padding-top: 35px; 
         text-align: center;
@@ -99,8 +101,10 @@
      }
      .insideMenu .op svg{
       
-      width: 100%;
-      padding-left: 60%;
+      width: fit-content;
+      
+      padding-top: 20px;
+      margin-left:80%;
       margin-top: -10%;
      }
  }
