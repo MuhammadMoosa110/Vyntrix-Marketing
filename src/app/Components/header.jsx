@@ -13,7 +13,7 @@ function Header() {
         <div className='insideMenu'>
 
           <ul className={click ? 'open' : ' '}>
-            <Link href='' className='cut' onClick={() => { setClick(!click) }}>     <svg xmlns="http://www.w3.org/2000/svg" width="1" height="10" fill="#fafafa" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <Link href='' className='cut mt-4   ' onClick={() => { setClick(!click) }}>     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" fill="#fafafa" class="bi bi-x-lg" viewBox="0 0 16 16">
               <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
             </svg></Link>
 
@@ -24,7 +24,7 @@ function Header() {
 
           </ul>
 
-          <Link className='op' href=' ' onClick={() => { setClick(!click) }}  >  <svg xmlns="http://www.w3.org/2000/svg" width="55" height="56" fill="#FF9100" class="bi bi-list" viewBox="0 0 16 16">
+          <Link className='op w-fit border-l-orange-600' href=' ' onClick={() => { setClick(!click) }}  >  <svg xmlns="http://www.w3.org/2000/svg" width="55" height="56" fill="#FF9100" class="bi bi-list" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
           </svg></Link>
 

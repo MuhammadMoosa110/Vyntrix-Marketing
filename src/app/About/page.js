@@ -13,7 +13,7 @@ function About() {
     const swiper = new Swiper( );    
     return ( 
         <>
-         <Header />
+         <Header className="w-fit bg-white" />
          <div className="Wrapper_About">
          <div className="styleBar">
             <h1>ABOUT</h1>

@@ -24,10 +24,15 @@
     justify-items:end;
     align-content: center;
  }
- .insideMenu svg{
-    height: 3.5rem;
+ .insideMenu .op svg{
+    height: 4.5rem;
     width: 200px;
     
+ }
+ .insideMenu  ul svg{
+   width: 100px;
+   height: 3rem;
+   position: absolute;
  }
  .insideMenu ul{
     display: none;
