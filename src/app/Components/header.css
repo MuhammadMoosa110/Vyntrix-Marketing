@@ -33,6 +33,7 @@
    width: 100px;
    height: 3rem;
    position: absolute;
+   top: 25px;
  }
  .insideMenu ul{
     display: none;
@@ -54,9 +55,9 @@
  }
  .insideMenu ul li{
     width: 100%;
- 
+      margin: 15px auto 0px auto;
     font-size: 2vmax; 
-    padding-top: 0px; 
+    padding-top: 10px; 
     text-align: center;
  }  
  @media screen and (max-width:876px){
