@@ -265,6 +265,14 @@
   text-align: center;
   font-size: 2rem;
 }
+.footer{
+  background: #FF9100;
+  height: 40vh;
+   
+}
+.footer h1{
+  font-size: 1.5vmax;
+}
 @media screen and (max-width:600px)  {
   
 .Wrapper .services h5{

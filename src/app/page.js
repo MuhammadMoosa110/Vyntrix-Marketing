@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper';
 import 'swiper/css';
 import { Navigation } from 'swiper/modules';
 import pic from '../app/Asset/t1.png'
+import Footer from "./Components/footer";
 
 
 
@@ -71,6 +72,10 @@ function main() {
         <div className="HappyCli"> 
         <h1>OUR CLIENTS</h1>
            </div>
+           <div>
+            <Footer/>
+           </div>
+            
       </div>
     </>
   );

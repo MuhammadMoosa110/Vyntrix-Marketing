@@ -4,3 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.GalleryHead{
+    height: 35vh;
+    width: 100%;
+    background: black;
+}
+.GalleryHead .img{
+    width: 100%;
+    height: 20%;
+    background: red;
+}
